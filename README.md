@@ -8,4 +8,6 @@ To ensure proper use of your application is to have an internet connection, and 
  <br><hr>
 
 ## Project objective
-<p>Development of an android application that can complete free time from the youngest to the oldest, who are in doubt about which category to choose or threaten to summarize a good movie or TV series.</p>
+<p>Development of an Android application that can complete free time from the youngest to the oldest, who are in doubt about which category to choose or threaten to summarize a good movie or TV series.</p>
+<br><hr>
+<p>In the following, we will briefly introduce you to the architecture of the application, where we will explain in detail the functionality of the database, retrofit, fragments, activities, etc.</p>
