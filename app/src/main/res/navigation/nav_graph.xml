@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listFragment">
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="ba.unsa.pmf.math.myapplication.fragments.ListFragment"
+        android:label="Popcornflix"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_listFragment_to_singleItemCategory"
+            app:destination="@id/singleItemCategory"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/singleItemCategory"
+        android:name="ba.unsa.pmf.math.myapplication.fragments.SingleItemCategory"
+        android:label="Details "
+        tools:layout="@layout/fragment_single_item_category">
+        <argument
+            android:name="item"
+            app:argType="ba.unsa.pmf.math.myapplication.models.Movie" />
+
+    </fragment>
+</navigation>
