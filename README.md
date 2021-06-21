@@ -11,3 +11,7 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
 <p>Development of an Android application that can complete free time from the youngest to the oldest, who are in doubt about which category to choose or threaten to summarize a good movie or TV series.</p>
 <br>
 <p>In the following, we will briefly introduce you to the architecture of the application, where we will explain in detail the functionality of the database, retrofit, fragments, activities, etc.</p>
+<br><hr>
+
+## Application architecture
+
