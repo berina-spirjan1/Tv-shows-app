@@ -50,7 +50,12 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
 ## ViewModel
 
 <p>ViewModel objects are scoped to the Lifecycle passed to the ViewModelProvider when getting the ViewModel. The ViewModel remains in memory until the Lifecycle it's scoped to goes away permanently: in the case of an activity, when it finishes, while in the case of a fragment, when it's detached. </p>
+<br><hr>
 
 ## Utility directory
 
 <p>The directory consists of several files: <b>Asserts</b>, <b>DeclarationHelper</b>, <b>SourceAssert</b>. In the following, we will explain the meaning of each one. The class <b>Assert</b> uses us as a class with the help of which we get information about the execution status of some parts of the code. It has an enum class in which we declare three statuses, and with the help of the companion object we enable access to functions that are of the same name as the status types. The class <b>DeclarationHelper</b> allows us to implement the functions we use in the <b>ListFragment</b>, the <b>ImageView.loadMovieUrl</b> function serves us so that we can correctly load poster images of movies and TV series, which are declared to us in the JSON file. The second function is <b>SearchView.onTextChangeWaitListener()</b>, which we use when searching for certain categories and its call is in the <b>ListFragment</b>.</p>
+<br><hr>
+
+## Activities
+<p></p>
