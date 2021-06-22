@@ -22,5 +22,7 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
  <li>the presentation layer,</li><li> the business logic layer and</li> <li>the data access layer.</li></ul> We use the Model-View-Controller architecture.</p>
  <br><hr>
  
- ### Directory of Dependency injection or abbreviated "di"
+ ## Directory of Dependency injection or abbreviated "di"
+ 
+ <p>Hilt is built on top of the popular DI Dagger library, so it benefits from the correctness of compilation time, performance performance, scalability, and support for Android Studio provided by Dagger. In the directory of this name we placed two objects <b>NetworkObject</b> and <b>RepositoryObject</b>.</p>
   
