@@ -3,7 +3,7 @@
 
 ## Introduction
 <br>
-<p> At a time when many people's lifestyle has forced to change their lifestyle overnight, many have found refuge by watching various television shows, movies, etc. That is why we bring you an application that will make it easier for you to choose movies and TV series, and bring a summary of the action. This project is based on the development of an Android mobile application using the modern Kotlin programming language. To ensure proper use of your application is to have an internet connection, and to download the files located at the top of your browser. Of course, in order to run a given application, it is necessary to have a configured program to run your application, such as Android Studio.
+<p> At a time when many people's lifestyle has forced to change their lifestyle overnight, they found refuge by watching various television shows, movies, etc. That is why we bring you an application that will make it easier for you to choose movies and TV series, and bring a summary of the action. This project is based on the development of an Android mobile application using the modern Kotlin programming language. To ensure proper use of your application is to have an internet connection, and to download the files located at the top of your browser. Of course, in order to run a given application, it is necessary to have a configured program to run your application, such as Android Studio.
 In this Popcornflix app the user can choose two options, movie search or tv series. If the user wants to read or view the details of another movie or series, this is also enabled, it is only necessary to select the appropriate category for that data filtering.</p>
 <img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image1.jpg" alt="Image of application icon" width="100" height="100"  ALIGN=”left” >
  <br><hr>
@@ -30,5 +30,9 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
 ## Models
 
 <p>The model represents the component that is responsible for the data used within the application. This is the so-called The “data access layer” that is most hidden and remote for the user, as it contains entities that manage the database, network requests, and convert data from one form to another so that they are ready to be displayed to the end user. As for the models that we use in our project, they are <b>Movie</b> and <b>MovieResponse</b> that we generate with the help of plugins, for simplicity and speed, and which contain all the data that characterizes a movie, or TV series.</p>
+<br><hr>
 
+## Retrofit
+
+<p>Retrofit is a type-safe REST client for Android, Java and Kotlin developed by Square. The library provides a powerful framework for authenticating and interacting with APIs and sending network requests with OkHttp. This directory has two files, one of which is an interface <b>GetDataServer</b>, that declares the method of obtaining the method for our Web API and we publish the creation of a function for searching and adding information about our categories. In addition to the interface, the directory also has a <b>DataClient</b> object in which we connect the api key, which is unique for each user, the url for the database, and the url for retrieving photos.</p>
 
