@@ -35,4 +35,8 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
 ## Retrofit
 
 <p>Retrofit is a type-safe REST client for Android, Java and Kotlin developed by Square. The library provides a powerful framework for authenticating and interacting with APIs and sending network requests with OkHttp. This directory has two files, one of which is an interface <b>GetDataServer</b>, that declares the method of obtaining the method for our Web API and we publish the creation of a function for searching and adding information about our categories. In addition to the interface, the directory also has a <b>DataClient</b> object in which we connect the api key, which is unique for each user, the url for the database and the url for retrieving photos.</p>
+<br><hr>
 
+## Adapter
+
+<p>An Adapter object acts as a bridge between an AdapterView and the underlying data for that view. The Adapter provides access to the data items. The Adapter is also responsible for making a View for each item in the data set. In our case, the adapter is a <b>RecyclerAdapter</b> in which we declare the <b>onMovieListClick</b> function, which we will later use to open the list item, in order to get a detailed overview of the data for each element of the list.</p>
