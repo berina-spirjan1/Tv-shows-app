@@ -40,6 +40,7 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
 ## Repository
 
 <p>The repository is used to hide the multiple data sources we may have in our application, data in an application may come from an internal database, or, an external service such as a Web API. Our repository has three functions, one of which serves us to gain access with the network, and make a specific request depending on what status we get. The remaining two functions are used to search and retrieve the data we need to operate our application.</p>
+<br><hr>
 
 ## Adapter
 
