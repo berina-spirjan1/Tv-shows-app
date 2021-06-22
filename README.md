@@ -29,4 +29,6 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
 
 ## Models
 
+<p>The model represents the component that is responsible for the data used within the application. This is the so-called The “data access layer” that is most hidden and remote for the user, as it contains entities that manage the database, network requests, and convert data from one form to another so that they are ready to be displayed to the end user. As for the models that we use in our project, they are <b>Movie</b> and <b>MovieResponse</b> that we generate with the help of plugins, for simplicity and speed, and which contain all the data that characterizes a movie, or TV series.</p>
+
 
