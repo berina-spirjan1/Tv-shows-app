@@ -44,4 +44,4 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
 
 ## Utility directory
 
-<p>The directory consists of several files: Asserts, DeclarationHelper, SourceAssert. In the following, we will explain the meaning of each of the above.</p>
+<p>The directory consists of several files: <b>Asserts</b>, <b>DeclarationHelper</b>, <b>SourceAssert</b>. In the following, we will explain the meaning of each of the above.</p>
