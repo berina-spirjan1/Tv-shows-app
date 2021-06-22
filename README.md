@@ -59,5 +59,5 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
 
 ## Activities
 <p>One activity represents one screen with a user interface, performs actions and displays the result on the screen. In the Popcornflix application, we have two activities: <b>EnterActivity</b>, which is linked to the layout <b>activity_enter</b>, with the help of which we create a splash screen. The appearance of this screen is shown in the first photo below this text. The second activity we use is <b>MainActivity</b>, which has <b>layout_main</b>, and this activity is associated with a <b>navigation graph</b> consisting of two fragments: <b>ListFragment</b> and <b>SingleItemCategory</b>.</p>
-<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image2.jpg" alt="Image of application icon"  width="400" height="500" ALIGN=”center” >
+<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image2.jpg" alt="Image of application icon"  width="300" height="500" ALIGN=”center” >
  <br><hr>
