@@ -5,7 +5,7 @@
 <br>
 <p> At a time when many people's lifestyle has forced to change their lifestyle overnight, they found refuge by watching various television shows, movies, etc. That is why we bring you an application that will make it easier for you to choose movies and TV series, and bring a summary of the action. This project is based on the development of an Android mobile application using the modern Kotlin programming language. To ensure proper use of your application is to have an internet connection, and to download the files located at the top of your browser. Of course, in order to run a given application, it is necessary to have a configured program to run your application, such as Android Studio.
 In this Popcornflix app the user can choose two options, movie search or tv series. If the user wants to read or view the details of another movie or series, this is also enabled, it is only necessary to select the appropriate category for that data filtering.</p>
-<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image1.jpg" alt="Image of application icon" width="100" height="100"  ALIGN=”left” >
+<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image1.jpg" alt="Image of application icon" width="100" height="100"  ALIGN=”center” >
  <br><hr>
 
 ## Project objective
@@ -59,3 +59,5 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
 
 ## Activities
 <p>One activity represents one screen with a user interface, performs actions and displays the result on the screen. In the Popcornflix application, we have two activities: <b>EnterActivity</b>, which is linked to the layout <b>activity_enter</b>, with the help of which we create a splash screen. The appearance of this screen is shown in the first photo below this text. The second activity we use is <b>MainActivity</b>, which has <b>layout_main</b>, and this activity is associated with a <b>navigation graph</b> consisting of two fragments: <b>ListFragment</b> and <b>SingleItemCategory</b>.</p>
+<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image2.jpg" alt="Image of application icon" width="100" height="100"  ALIGN=”center” >
+ <br><hr>
