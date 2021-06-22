@@ -21,4 +21,5 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
  <li>the presentation layer,</li><li> the business logic layer and</li> <li>the data access layer.</li></ul> We use the Model-View-Controller architecture.</p>
  <br><hr>
  
- 
+ ### Directory of Dependency injection or abbreviated "di"
+  
