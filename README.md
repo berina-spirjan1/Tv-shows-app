@@ -59,9 +59,15 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
 
 ## Activities
 <p>One activity represents one screen with a user interface, performs actions and displays the result on the screen. In the Popcornflix application, we have two activities: <b>EnterActivity</b>, which is linked to the layout <b>activity_enter</b>, with the help of which we create a splash screen. The appearance of this screen is shown in the first photo below this text. The second activity we use is <b>MainActivity</b>, which has <b>layout_main</b>, and this activity is associated with a <b>navigation graph</b> consisting of two fragments: <b>ListFragment</b> and <b>SingleItemCategory</b>.</p>
-<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image2.jpg" alt="Image of application icon"  width="250" height="500" ALIGN=”center” >
+<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image2.jpg" alt="Image of application"  width="250" height="500">
  <br><hr>
 
 ## Fragments
 
-<p>Fragments are components similar to activities, in the sense that they represent a part of the user interface, ie the entry point for interactions with the user. An activity can be made up of more fragments. The advantage of the fragment is that it encapsulates the functionality so that it can be easily used in other activities or applications.</p>
+<p>Fragments are components similar to activities, in the sense that they represent a part of the user interface, ie the entry point for interactions with the user. An activity can be made up of more fragments. The advantage of the fragment is that it encapsulates the functionality so that it can be easily used in other activities or applications. With the help of <b>ListFragment</b>, we enable the printing of established data for movies and TV series, and its layout is owned by <b>RecyclerView</b>. Here we establish a special menu, which will have a search icon and with the help of which we search for certain categories and their items. With the help of ViewBinding we access the data. The display of this screen is in the pictures below. The remaining fragment is the <b>SingleItemCategory</b> in which we establish the configuration of one item from our list, i.e. category details, abstract, poster and title.</p>
+<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image3.jpg" alt="Image of application"  width="250" height="500">
+<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image4.jpg" alt="Image of application"  width="250" height="500">
+<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image5.jpg" alt="Image of application"  width="250" height="500">
+<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image6.jpg" alt="Image of application"  width="250" height="500">
+<img src="https://github.com/berina-spirjan1/Tv-shows-app/blob/main/images/image7.jpg" alt="Image of application"  width="250" height="500">
+<br><hr>
