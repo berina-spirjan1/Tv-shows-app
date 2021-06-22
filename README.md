@@ -24,5 +24,5 @@ In this Popcornflix app the user can choose two options, movie search or tv seri
  
  ## Directory of Dependency injection or abbreviated "di"
  
- <p>Hilt is built on top of the popular DI Dagger library, so it benefits from the correctness of compilation time, performance performance, scalability, and support for Android Studio provided by Dagger. In the directory of this name we placed two objects <b>NetworkObject</b> and <b>RepositoryObject</b>.</p>
+ <p>Hilt is built on top of the popular DI Dagger library, so it benefits from the correctness of compilation time, performance, scalability, and support for Android Studio provided by Dagger. In the directory of this name we placed two objects <b>NetworkObject</b> and <b>RepositoryObject</b>. We called the object <b>NetworkObject</b> to group the logic of providing objects related to networking. Similarly, we create a <b>RepositoryObject</b> to import a repository from the Web API that we provide in <a href="https://developers.themoviedb.org/3">MovieDB</a>.</p>
   
